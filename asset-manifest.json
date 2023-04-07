@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/star-company-app/static/css/main.b324957e.css",
-    "main.js": "/star-company-app/static/js/main.55bc5eed.js",
-    "static/media/arial-bold.woff": "/star-company-app/static/media/arial-bold.0f72496113227f9e3079.woff",
-    "static/media/bg-img.jpg": "/star-company-app/static/media/bg-img.e478b65f0b7d06279ed5.jpg",
-    "static/media/arial-bold.woff2": "/star-company-app/static/media/arial-bold.64cdc6e996af77f4f45c.woff2",
-    "static/media/proxima-nova-light.woff": "/star-company-app/static/media/proxima-nova-light.7990e5187e35346a1a41.woff",
-    "static/media/proxima-nova-bold.woff": "/star-company-app/static/media/proxima-nova-bold.7bbe1c8847f08b1633a0.woff",
-    "static/media/proxima-nova-light.woff2": "/star-company-app/static/media/proxima-nova-light.862957f462a3cd712229.woff2",
-    "static/media/proxima-nova-bold.woff2": "/star-company-app/static/media/proxima-nova-bold.c84883dfcd4817e310df.woff2",
-    "static/media/logo.svg": "/star-company-app/static/media/logo.9b280bc9e37a909f520595462c7eb408.svg",
-    "index.html": "/star-company-app/index.html",
-    "main.b324957e.css.map": "/star-company-app/static/css/main.b324957e.css.map",
-    "main.55bc5eed.js.map": "/star-company-app/static/js/main.55bc5eed.js.map"
+    "main.css": "/Aleksandr-Bondarenko.github.io/star-company-app/static/css/main.3ee5554f.css",
+    "main.js": "/Aleksandr-Bondarenko.github.io/star-company-app/static/js/main.32d9303f.js",
+    "static/media/arial-bold.woff": "/Aleksandr-Bondarenko.github.io/star-company-app/static/media/arial-bold.0f72496113227f9e3079.woff",
+    "static/media/bg-img.jpg": "/Aleksandr-Bondarenko.github.io/star-company-app/static/media/bg-img.e478b65f0b7d06279ed5.jpg",
+    "static/media/arial-bold.woff2": "/Aleksandr-Bondarenko.github.io/star-company-app/static/media/arial-bold.64cdc6e996af77f4f45c.woff2",
+    "static/media/proxima-nova-light.woff": "/Aleksandr-Bondarenko.github.io/star-company-app/static/media/proxima-nova-light.7990e5187e35346a1a41.woff",
+    "static/media/proxima-nova-bold.woff": "/Aleksandr-Bondarenko.github.io/star-company-app/static/media/proxima-nova-bold.7bbe1c8847f08b1633a0.woff",
+    "static/media/proxima-nova-light.woff2": "/Aleksandr-Bondarenko.github.io/star-company-app/static/media/proxima-nova-light.862957f462a3cd712229.woff2",
+    "static/media/proxima-nova-bold.woff2": "/Aleksandr-Bondarenko.github.io/star-company-app/static/media/proxima-nova-bold.c84883dfcd4817e310df.woff2",
+    "static/media/logo.svg": "/Aleksandr-Bondarenko.github.io/star-company-app/static/media/logo.9b280bc9e37a909f520595462c7eb408.svg",
+    "index.html": "/Aleksandr-Bondarenko.github.io/star-company-app/index.html",
+    "main.3ee5554f.css.map": "/Aleksandr-Bondarenko.github.io/star-company-app/static/css/main.3ee5554f.css.map",
+    "main.32d9303f.js.map": "/Aleksandr-Bondarenko.github.io/star-company-app/static/js/main.32d9303f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b324957e.css",
-    "static/js/main.55bc5eed.js"
+    "static/css/main.3ee5554f.css",
+    "static/js/main.32d9303f.js"
   ]
 }
