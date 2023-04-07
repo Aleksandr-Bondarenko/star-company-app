@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Aleksandr-Bondarenko.github.io/star-company-app/static/css/main.3ee5554f.css",
-    "main.js": "/Aleksandr-Bondarenko.github.io/star-company-app/static/js/main.32d9303f.js",
-    "static/media/arial-bold.woff": "/Aleksandr-Bondarenko.github.io/star-company-app/static/media/arial-bold.0f72496113227f9e3079.woff",
-    "static/media/bg-img.jpg": "/Aleksandr-Bondarenko.github.io/star-company-app/static/media/bg-img.e478b65f0b7d06279ed5.jpg",
-    "static/media/arial-bold.woff2": "/Aleksandr-Bondarenko.github.io/star-company-app/static/media/arial-bold.64cdc6e996af77f4f45c.woff2",
-    "static/media/proxima-nova-light.woff": "/Aleksandr-Bondarenko.github.io/star-company-app/static/media/proxima-nova-light.7990e5187e35346a1a41.woff",
-    "static/media/proxima-nova-bold.woff": "/Aleksandr-Bondarenko.github.io/star-company-app/static/media/proxima-nova-bold.7bbe1c8847f08b1633a0.woff",
-    "static/media/proxima-nova-light.woff2": "/Aleksandr-Bondarenko.github.io/star-company-app/static/media/proxima-nova-light.862957f462a3cd712229.woff2",
-    "static/media/proxima-nova-bold.woff2": "/Aleksandr-Bondarenko.github.io/star-company-app/static/media/proxima-nova-bold.c84883dfcd4817e310df.woff2",
-    "static/media/logo.svg": "/Aleksandr-Bondarenko.github.io/star-company-app/static/media/logo.9b280bc9e37a909f520595462c7eb408.svg",
-    "index.html": "/Aleksandr-Bondarenko.github.io/star-company-app/index.html",
-    "main.3ee5554f.css.map": "/Aleksandr-Bondarenko.github.io/star-company-app/static/css/main.3ee5554f.css.map",
-    "main.32d9303f.js.map": "/Aleksandr-Bondarenko.github.io/star-company-app/static/js/main.32d9303f.js.map"
+    "main.css": "/static/css/main.c3879c09.css",
+    "main.js": "/static/js/main.67c18c93.js",
+    "static/media/arial-bold.woff": "/static/media/arial-bold.0f72496113227f9e3079.woff",
+    "static/media/bg-img.jpg": "/static/media/bg-img.e478b65f0b7d06279ed5.jpg",
+    "static/media/arial-bold.woff2": "/static/media/arial-bold.64cdc6e996af77f4f45c.woff2",
+    "static/media/proxima-nova-light.woff": "/static/media/proxima-nova-light.7990e5187e35346a1a41.woff",
+    "static/media/proxima-nova-bold.woff": "/static/media/proxima-nova-bold.7bbe1c8847f08b1633a0.woff",
+    "static/media/proxima-nova-light.woff2": "/static/media/proxima-nova-light.862957f462a3cd712229.woff2",
+    "static/media/proxima-nova-bold.woff2": "/static/media/proxima-nova-bold.c84883dfcd4817e310df.woff2",
+    "static/media/logo.svg": "/static/media/logo.9b280bc9e37a909f520595462c7eb408.svg",
+    "index.html": "/index.html",
+    "main.c3879c09.css.map": "/static/css/main.c3879c09.css.map",
+    "main.67c18c93.js.map": "/static/js/main.67c18c93.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ee5554f.css",
-    "static/js/main.32d9303f.js"
+    "static/css/main.c3879c09.css",
+    "static/js/main.67c18c93.js"
   ]
 }
