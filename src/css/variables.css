@@ -1,0 +1,20 @@
+:root {
+    --brand-color: #83a6e3;
+    --stepper-bg: #828c90;
+    --error-color: #e12931;
+
+    --secondary-text-color: #6e747c;
+
+    --start-btn-gradient: linear-gradient(29deg, #4baf4f 0%, #3bd341 100%);
+    --start-btn-hover: rgba(75, 175, 79, 0.66);
+
+    --next-btn-gradient: linear-gradient(29deg, #5865ea 0%, #2b9fea 100%);
+    --next-btn-hover: rgba(43, 160, 234, 0.66);
+
+    --login-btn-active-gradient: linear-gradient(29deg, #5865ea 0%, #2b9fea 100%);
+    --login-btn-hover: rgba(43, 160, 234, 0.66);
+}
+
+/* #8f9495
+#6d737b
+#97a2a0 */

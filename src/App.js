@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import LoginForm from "./components/LoginForm/LoginForm";
+import { ReactComponent as Logo } from "./images/logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="header">
+        <Logo className="logo" />
+        <LoginForm />
+      </div>
+
+      <h1 className="heading">
+        {" "}
+        STARCOMPANY DESIGNS, MANUFACTURES AND <br />
+        <span className="heading-part">
+          Launches Advanced Rockets and Spacecrafts
+        </span>{" "}
+      </h1>
     </div>
   );
 }

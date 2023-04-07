@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('../fonts/proxima-nova-light.woff') format('woff'), url('../fonts/proxima-nova-light.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/proxima-nova-bold.woff') format('woff'), url('../fonts/proxima-nova-bold.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/arial-bold.woff') format('woff'), url('../fonts/arial-bold.woff2') format('woff2')
+}

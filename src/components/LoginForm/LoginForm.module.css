@@ -1,0 +1,77 @@
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    box-sizing: border-box;
+    height: 20px;
+    width: 100px;
+    padding: 0 8px;
+    font-family: 'Arial', sans-serif;
+    font-size: 8px;
+    color: var(--secondary-text-color);
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.input:not(:last-child) {
+    margin-right: 8px;
+}
+
+.errorMsg, .link {
+    margin-top: 2px;
+    position: absolute;
+    font-family: 'Arial', sans-serif;
+    font-size: 5px;
+    color: #ffffff;
+}
+
+.errorMsg {
+    width: 100px;
+    height: 18px;
+    padding: 6px;
+    margin-right: 8px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: var(--error-color);
+    
+}
+
+.link {
+    padding: 5px 0;
+    left: 108px;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.button {
+    width: 40px;
+    height: 20px;
+    background-color: transparent;
+    font-family: 'Arial', sans-serif;
+    font-size: 8px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+}
+
+.button:hover {
+    background-image: var(--login-btn-active-gradient);
+    border: none;
+}
+
+.button.submitBtn {
+    background-image: var(--login-btn-active-gradient);
+    border: none;
+    margin-left: 8px;
+    transition: box-shadow 230ms linear;
+}
+
+.submitBtn:hover {
+    box-shadow: 0px 1px 8.5px var(--login-btn-hover);
+}
