@@ -1,0 +1,109 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 26px;
+}
+
+.button {
+    margin-bottom: 10px;
+}
+
+.button.disabled {
+    cursor: no-drop;
+}
+
+.button:first-child, .button:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26px;
+    width: 26px;
+    border: 1px solid var(--prev-btn-border-color);
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 8px;
+    transition: border-color 230ms linear;
+}
+
+.button:last-child {
+    padding-left: 0;
+    padding-right: 4px;
+    background-image: var(--next-btn-gradient);
+}
+
+.prevBtnIcon, .nextBtnIcon, .startBtnIcon {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid var(--prev-btn-border-color);
+    border-right: none;
+    border-bottom: none;
+    transform: rotate(-45deg);
+    transition: border-color 230ms linear;
+}
+
+.nextBtnIcon {
+    transform: rotate(135deg);
+    border-color: var(--prev-btn-border-color);
+}
+
+.nextBtnLabel {
+    margin-right: 8px;
+}
+
+.startBtnIcon {
+    width: 6px;
+    height: 10px;
+    transform: rotate(-135deg);
+    border-color: #ffffff;
+}
+
+.button:first-child:hover,
+.button:first-child:focus,
+.button:first-child:hover > .prevBtnIcon,
+.button:first-child:focus > .prevBtnIcon {
+    border-color: #ffffff;
+}
+
+.button:last-child:hover,
+.button:last-child:focus {
+    box-shadow: 0px 1px 8.5px var(--next-btn-hover);
+}
+
+.button.disabled:hover, .button.disabled:hover > .prevBtnIcon {
+    border-color: var(--prev-btn-border-color);
+}
+
+.button.startBtn:hover,
+.button.startBtn:focus {
+    box-shadow: 0px 1px 8.5px var(--start-btn-hover);
+}
+
+@media screen and (min-width: 498px) {
+    .button:last-child {
+        height: 26px;
+        width: 90px;
+        padding: 0 4px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        background-image: var(--next-btn-gradient);
+        border: none;
+        color: #ffffff;
+        transition: box-shadow 230ms linear;
+    }
+
+    .button.startBtn {
+        background-image: var(--start-btn-gradient);
+    }
+
+    .nextBtnIcon {
+        border-color: #ffffff;
+    }
+
+    .form {
+        margin-left: 66px;
+    }
+}

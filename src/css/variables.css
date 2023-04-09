@@ -1,9 +1,12 @@
 :root {
     --brand-color: #83a6e3;
-    --stepper-bg: #828c90;
+    --stepper-bg: rgba(225, 230, 235, 0.5);
     --error-color: #e12931;
 
     --secondary-text-color: #6e747c;
+    --description-text-color: rgba(255, 255, 255, 0.5);
+
+    --prev-btn-border-color: #8f9495;
 
     --start-btn-gradient: linear-gradient(29deg, #4baf4f 0%, #3bd341 100%);
     --start-btn-hover: rgba(75, 175, 79, 0.66);
@@ -13,8 +16,7 @@
 
     --login-btn-active-gradient: linear-gradient(29deg, #5865ea 0%, #2b9fea 100%);
     --login-btn-hover: rgba(43, 160, 234, 0.66);
-}
 
-/* #8f9495
-#6d737b
-#97a2a0 */
+    --option-bgc-hover: #e2e2e2;
+    --scrollbar-thumb-color: #c7c3c3;
+}

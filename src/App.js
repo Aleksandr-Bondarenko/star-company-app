@@ -1,4 +1,5 @@
 import LoginForm from "./components/LoginForm/LoginForm";
+import RegisterForm from "./components/RegisterForm/RegisterForm";
 import { ReactComponent as Logo } from "./images/logo.svg";
 import "./App.css";
 
@@ -11,12 +12,13 @@ function App() {
       </div>
 
       <h1 className="heading">
-        {" "}
         STARCOMPANY DESIGNS, MANUFACTURES AND <br />
         <span className="heading-part">
           Launches Advanced Rockets and Spacecrafts
-        </span>{" "}
+        </span>
       </h1>
+
+      <RegisterForm />
     </div>
   );
 }

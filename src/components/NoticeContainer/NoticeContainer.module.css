@@ -1,0 +1,32 @@
+.descContainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.description {
+    position: absolute;
+    text-align: center;
+    color: var(--description-text-color);
+}
+
+.link {
+    color: inherit;
+}
+
+.errorMsg {
+    width: 288px;
+    height: 32px;
+    padding: 6px;
+    position: absolute;
+    top: -10px;
+    text-align: center;
+    color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: var(--error-color);
+}

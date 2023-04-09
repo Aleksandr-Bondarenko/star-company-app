@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useRef, useState, useEffect } from "react";
+import { validateEmail } from "../../js/utility";
 import styles from "./LoginForm.module.css";
 
 const LoginForm = () => {
@@ -6,8 +7,21 @@ const LoginForm = () => {
   const [data, setData] = useState({ email: "", password: "" });
   const [isDataValid, setIsDataValid] = useState(true);
 
-  const emailRegexp =
-    /^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$/;
+  useEffect(() => {
+    const clickHandler = (evt) => {
+      if (evt.currentTarget === evt.target) {
+        setShowInputsFields(false);
+        setIsDataValid(true);
+      }
+    };
+
+    const appEl = document.querySelector(".App");
+    appEl.addEventListener("click", clickHandler);
+
+    return () => appEl.removeEventListener("click", clickHandler);
+  }, []);
+
+  const btnEl = useRef(null);
 
   const errorMessage =
     data.password === "" || data.email === ""
@@ -19,22 +33,22 @@ const LoginForm = () => {
   const onClickBtnHandler = (evt) => {
     evt.preventDefault();
     const { email, password } = data;
-    const emailIsValid = emailRegexp.test(email);
+    const { type } = evt.currentTarget;
 
-    if (evt.currentTarget.type === "button") {
+    if (type === "button") {
       setShowInputsFields(true);
       return;
     }
 
-    if (!emailIsValid || email === "" || password === "") {
+    if (!validateEmail(email) || email === "" || password === "") {
       setIsDataValid(false);
       return;
     }
 
-    if (evt.currentTarget.type === "submit" && isDataValid) {
+    if (type === "submit" && isDataValid) {
       alert(
         `This message is solely to verify that the data entered in the fields is actually being processed.
-        Your data:
+        Your login data:
         - email: ${email}
         - password: ${password}`
       );
@@ -47,6 +61,30 @@ const LoginForm = () => {
     setData((prevState) => ({ ...prevState, [name]: value }));
     setIsDataValid(true);
   };
+
+  const mouseOverHandler = () => {
+    if (!showInputsFields) {
+      btnEl.current.style.backgroundImage = "var(--login-btn-active-gradient)";
+      btnEl.current.style.border = "none";
+    } else {
+      btnEl.current.style.boxShadow = "0px 1px 8.5px var(--login-btn-hover)";
+    }
+  };
+
+  const mouseOutHandler = () => {
+    if (!showInputsFields) {
+      btnEl.current.style.backgroundImage = "none";
+      btnEl.current.style.boxShadow = "none";
+      btnEl.current.style.border = "1px solid #ffffff";
+    } else {
+      btnEl.current.style.boxShadow = "none";
+    }
+  };
+
+  useEffect(() => {
+    !showInputsFields && mouseOutHandler();
+    showInputsFields && mouseOverHandler();
+  }, [showInputsFields]);
 
   return (
     <div>
@@ -74,18 +112,23 @@ const LoginForm = () => {
         )}
 
         <button
+          ref={btnEl}
           type={showInputsFields ? "submit" : "button"}
           className={`${styles.button} ${showInputsFields && styles.submitBtn}`}
           onClick={onClickBtnHandler}
+          onMouseOver={mouseOverHandler}
+          onMouseOut={mouseOutHandler}
         >
           Log in
         </button>
       </form>
 
       <div className={styles.wrapper}>
-        {!isDataValid && <p className={styles.errorMsg}>{errorMessage}</p>}
+        {!isDataValid && showInputsFields && (
+          <p className={styles.errorMsg}>{errorMessage}</p>
+        )}
         {showInputsFields && (
-          <a className={styles.link} href="https://www.google.com/">
+          <a className={styles.link} href="">
             Forgot your password?
           </a>
         )}

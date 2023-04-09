@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 84px;
+}
+
+.step {
+    width: 6px;
+    height: 6px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+.step:not(:last-child) {
+    margin-right: 12px;
+}
+
+.step.active {
+    background-color: #ffffff;
+}
+
+@media screen and (min-width: 405px) {
+    .container {
+        margin-top: 62px;
+    }
+}
