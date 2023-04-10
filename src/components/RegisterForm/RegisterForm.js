@@ -22,7 +22,7 @@ const RegisterForm = () => {
   const prevBtnEl = useRef(null);
   const nextBtnEl = useRef(null);
 
-  const matches = useMediaQuery({ query: "(min-width: 498px)" });
+  const matches = useMediaQuery({ query: "(min-width: 532px)" });
 
   const changeStepHandler = (evt) => {
     const { action } = evt.currentTarget.dataset;
