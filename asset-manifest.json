@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/star-company-app/static/css/main.89660e58.css",
-    "main.js": "/star-company-app/static/js/main.351bd6ff.js",
+    "main.css": "/star-company-app/static/css/main.7c2ce49c.css",
+    "main.js": "/star-company-app/static/js/main.d4bc0abc.js",
     "static/media/arial-bold.woff": "/star-company-app/static/media/arial-bold.0f72496113227f9e3079.woff",
     "static/media/bg-img.jpg": "/star-company-app/static/media/bg-img.e478b65f0b7d06279ed5.jpg",
     "static/media/arial-bold.woff2": "/star-company-app/static/media/arial-bold.64cdc6e996af77f4f45c.woff2",
@@ -11,11 +11,11 @@
     "static/media/proxima-nova-bold.woff2": "/star-company-app/static/media/proxima-nova-bold.c84883dfcd4817e310df.woff2",
     "static/media/logo.svg": "/star-company-app/static/media/logo.f8e6df6d95005590aa3ffc40ff314152.svg",
     "index.html": "/star-company-app/index.html",
-    "main.89660e58.css.map": "/star-company-app/static/css/main.89660e58.css.map",
-    "main.351bd6ff.js.map": "/star-company-app/static/js/main.351bd6ff.js.map"
+    "main.7c2ce49c.css.map": "/star-company-app/static/css/main.7c2ce49c.css.map",
+    "main.d4bc0abc.js.map": "/star-company-app/static/js/main.d4bc0abc.js.map"
   },
   "entrypoints": [
-    "static/css/main.89660e58.css",
-    "static/js/main.351bd6ff.js"
+    "static/css/main.7c2ce49c.css",
+    "static/js/main.d4bc0abc.js"
   ]
 }
